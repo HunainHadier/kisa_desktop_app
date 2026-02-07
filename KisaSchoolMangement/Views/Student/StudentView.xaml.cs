@@ -253,8 +253,7 @@ namespace KisaSchoolMangement.Views.Student
 
             try
             {
-                // PASS the StudentModel instance so the details window can bind immediately
-                var details = new StudentDetailsWindow(_selectedStudent)
+                var details = new StudentDetailsWindow(_selectedStudent.Id)
                 {
                     Owner = this,
                     WindowStartupLocation = WindowStartupLocation.CenterOwner

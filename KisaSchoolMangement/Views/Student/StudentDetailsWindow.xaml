@@ -81,7 +81,7 @@
 
                     <!-- Additional sections -->
                     <StackPanel Margin="0,12,0,0">
-                        <TextBlock Text="CNIC & Documents" FontSize="16" FontWeight="Bold" Margin="0,6,0,6"/>
+                        <TextBlock Text="CNIC &amp; Documents" FontSize="16" FontWeight="Bold" Margin="0,6,0,6"/>
                         <WrapPanel>
                             <StackPanel Width="250" Margin="6">
                                 <TextBlock FontWeight="SemiBold">Child CNIC</TextBlock>
@@ -97,7 +97,7 @@
                             </StackPanel>
                         </WrapPanel>
 
-                        <TextBlock Text="Financial & Family" FontSize="16" FontWeight="Bold" Margin="0,12,0,6"/>
+                        <TextBlock Text="Financial &amp; Family" FontSize="16" FontWeight="Bold" Margin="0,12,0,6"/>
                         <WrapPanel>
                             <StackPanel Width="250" Margin="6">
                                 <TextBlock FontWeight="SemiBold">Father Occupation</TextBlock>
